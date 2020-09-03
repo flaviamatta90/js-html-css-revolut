@@ -12,16 +12,15 @@ body{
   width: 80%;
   margin: auto;
   padding: 30px 0;
-}
-
-.left{
   display: flex;
   justify-content: center;
-  justify-content: flex-start;
-  align-items: center;
+  align-items:baseline;
+  justify-content: space-between;
 }
 
+
 .list-inline li{
+
   list-style: none;
   padding: 0 30px;
 }
@@ -36,5 +35,5 @@ body{
 }
 
 .right{
-  margin-left: 150px;;
+  flex-shrink: 5;
 }
